@@ -1,0 +1,46 @@
+<!-- assets/style.css -->
+/* Basic CSS for STELa */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header, footer {
+  background: #003366;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+}
+
+ul ul {
+  display: none;
+  position: absolute;
+  background: #003366;
+  padding: 0.5rem;
+}
+
+li:hover > ul {
+  display: block;
+}
+
