@@ -1,12 +1,10 @@
-<!-- assets/style.css -->
-/* Basic CSS for STELa */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background: #f4f4f4;
-  color: #333;
+  background: white;
+  color: black;
 }
 
 header, footer {
@@ -43,4 +41,3 @@ ul ul {
 li:hover > ul {
   display: block;
 }
-
